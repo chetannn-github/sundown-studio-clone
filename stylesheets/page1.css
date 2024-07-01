@@ -1,7 +1,8 @@
 #page1{
     height: 98vh;
     width: 100%;
-    /* background: #2c9b63; */
+    padding: 0 20px;
+    background: #efeae3;
     position: relative;
 }
 
@@ -38,6 +39,7 @@
 }
 
 #page1 #links a{
+    position: relative;
     padding: 15px 26px;
     border-radius: 25px;
     border: 1px solid rgba(0, 0, 0, 0.308);
@@ -49,8 +51,36 @@
     font-weight: 200;
     font-size: 17px;
     color: rgba(19, 18, 18, 0.747);
+    overflow: hidden;
+    transition: all 0.2s 0.3s ease-in-out;
+    z-index: 3;
 
 }
+
+
+#page1 #links a:hover{
+    color: #efeea3;
+}
+
+#page1 #links a:hover::before {
+    transform:translate(-50%,-50%) ;
+}
+
+
+#page1 #links a::before{
+    content:"";
+    background: #000;
+    height:150px;
+    width: 120px;
+    border-radius: 50%;
+
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,50%);transition: all 0.2s 0.3s ease-in;
+    z-index: -1;
+}
+ 
 
 #page1 #studio-info{
     height: calc(100% - 150px);

@@ -3,6 +3,8 @@
     width: 100%;
     position: relative;
 overflow: hidden;
+padding: 0 20px;
+    background: #efeae3;
 }
 
 #page2 video{
@@ -21,7 +23,7 @@ overflow: hidden;
     /* background: #c59494; */
     position: relative;
 width: fit-content; 
-    animation: marquee 4s linear 0s infinite ;
+    animation: marquee 10s linear 0s infinite ;
    /* transform: skewY(-3deg); */
 }
 
