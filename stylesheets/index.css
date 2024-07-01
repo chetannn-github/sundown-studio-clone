@@ -1,0 +1,30 @@
+@font-face {
+    font-family:neue;
+    src: url(../assets/fonts/NeueHaasDisplay-Mediu.woff);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "neue";
+
+}
+html,body{
+    width:100%;
+    height: 100%;
+    padding: 0 20px;
+    background: #efeae3;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+#main{
+    height: 100vh;
+    width: 100%;
+    
+}
