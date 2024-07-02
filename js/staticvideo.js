@@ -15,5 +15,5 @@ projects.forEach((project)=>{
      });
  },true)
 
-console.log(projects);
+// console.log(projects);
 
