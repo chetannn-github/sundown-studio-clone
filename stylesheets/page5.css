@@ -5,12 +5,13 @@
     background: #000;
     display: flex;
 
-     border-radius: 25px;
-    overflow: hidden;
+     /* border-radius: 25px;
+    overflow: hidden; */
    
     padding: 0 20px;
     background: #efeae3;
-    margin: 30px 0;
+    /* margin: 30px 0; */
+    
     
     
 }
