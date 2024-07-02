@@ -26,6 +26,7 @@
 #page3 #txt h1{
     font-size: 4.5vw;
     line-height: 0.9;
+    z-index: 99;
 }
 
 #page3 #info{
