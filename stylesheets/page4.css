@@ -57,25 +57,51 @@
 
  }
 
+ #page4 .project::before{
+    height: 130px;
+    width: 100%;
+    content: "";
+    background: #FF9831;
 
+    position: absolute;
+    top: -102%;
+    left: 0%;
+
+    z-index: 1;
+    transition: all 0.1s 0.2s ease-in;
+   
+
+}
+
+
+#page4 .project:hover::before {
+    transform: translate(0,100%);
+}
 #page4 .project{
     height: 130px;
     width: 100%;
-
+position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    border-bottom:1px solid rgba(0, 0, 0, 0.411) ;
+    overflow: hidden;
+    border-bottom:1px solid rgba(0, 0, 0, 0.164) ;
+ z-index: 3;
 
+ cursor: pointer;
 }
 
 #page4 .project h2{
     font-size: 3vw;
+    z-index: 3;
+
 }
 
 #page4 .project .company{
     font-size: 1vw;
     font-weight: 100;
     color: #0000006d;
+
+    z-index: 3;
 }
